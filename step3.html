@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step-3</title>
+</head>
+<style>
+     td{   background-color: rgba(146, 163, 163, 0.418);
+           width: 180px;
+            text-align: center;
+            height: 40px;}
+            fieldset{ width:526px;
+                  position: absolute;
+                  top: 35%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);}
+    
+         .lightgreen { background-color: rgba(117, 223, 85, 0.473);}
+         .lightgreen2{ background-color: rgba(117, 223, 85, 0.473) ;}
+         .lightblue1 { background-color: rgba(33, 144, 218, 0.685) ; }
+            
+
+
+</style>
+<body>
+    <center>
+        <table>
+             <tr>
+                 <td class="lightgreen"><b>Step 1: Account</b></td>
+                   <td class="lightgreen2"><b>Step 2: Personal Deatails</b></td>
+                   <td class="lightblue1"><b>Step 3: Your Review</b></td>
+            </tr>
+        </table>
+    
+    </center>
+
+    <form>
+
+        <fieldset>
+    
+    
+            <legend align="left"><b>Your Review</b></legend>
+
+             <br />
+            
+
+            <strong>How did you hear about us?</strong>  
+
+            <select name="select your option">
+                <option value="Friends">Friends</option>
+                <option value="Students" selected >Students</option>
+                <option value="Relative">Relatives</option>
+                <option value="Teachers">Teachers</option>
+            </select>
+            
+            
+            <br /><br />
+
+            <b><label for="Would you visit again">Would you visit again?</label></b>
+            
+            <br />
+    
+            <input type="radio" id="Yes" name="Would you visit again">
+            <label for="yes">Yes</label>
+            <input type="radio" id="No" name="Would you visit again">
+            <label for="No">No</label>
+            <input type="radio" id="Maybe" name="Would you visit again">
+            <label for="Maybe">Maybe</label>
+
+            <br />
+            <br />
+
+            <strong>Comments:</strong>
+
+            <br />
+
+            <textarea name="intro" cols="35" rows="3" placeholder="Enter your comments here..."></textarea>
+            
+            <br /><br />
+
+            <strong>Documents</strong>
+            <br />
+            <input type="file">
+
+            <br /><br >
+            <input type="checkbox"><b>Sign me up for email updates</b>
+            <br /><br />
+                   <a href="step2.html" target="-main"><img src="back.png" alt="Back" width="100">_</a>
+                   <a href="index.html"><img src="submit.png" alt="Submit" width="100"><a>
+                
+            <br /><br />
+
+    
+</body>
+</html>

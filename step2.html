@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>step-2</title>
+</head>
+
+    <style>
+        td{
+            background-color: rgba(146, 163, 163, 0.418);
+            width: 180px;
+            text-align: center;
+            height: 40px;}
+            
+         fieldset{ width:526px;
+                  position: absolute;
+                  top: 35%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);}
+
+         .lightgreen{ background-color: rgba(117, 223, 85, 0.473);}
+
+        .lightblue {background-color: rgba(33, 144, 218, 0.685);}
+
+        .input{ width: 450px;}
+       
+        
+
+      </style>
+
+ <body>
+
+    <center>
+        <table>
+             <tr>
+                 <td class="lightgreen"><b>Step 1: Account</b></td>
+                   <td class="lightblue"><b>Step 2: Personal Deatails</b></td>
+                   <td><b>Step 3: Your Review</b></td>
+            </tr>
+        </table>
+    
+    </center>
+
+  <form>
+
+    <fieldset>
+
+
+        <legend align="left"><b>Personal Details</b></legend>
+
+
+        <br />
+        
+             <b><label for="Fisrt Name:">First Name:</label></b>
+
+        <br />
+            <input type="text" id="First Name:" placeholder="Enter First Name" class="input">
+        
+        <br /><br />
+        
+            <b><label for="Last Name:">Last Name:</label></b>
+        <br />
+               <input type="text" id="Last Name" placeholder="Enter Last Name" class="input">
+        
+        <br /><br />
+        
+              <b><label for="CNIC">CNIC:</label></b>
+        <br />
+               <input type="text" id="CNIC" placeholder="xxxxx-xxxxxxxx-x" class="input">
+        
+        <br /><br />       
+              
+               <b><label for="Socialb Link">Social Link</label></b>
+        <br />  
+               <input type="url" id="Social Link" placeholder="Enter Facebook/Linkedin profile pic" class="input">
+               
+        <br /><br />
+               <a href="step1.html" ><img src="back.png" alt="Back" width="100"><a>
+                <a href="step3.html" target="-main"><img src="next.png" alt="Next step 3" width="100" target="-main"><a></a>
+            
+        <br /><br />
+               
+           
+    </fieldset> 
+  </form>
+ </body>
+</html>
